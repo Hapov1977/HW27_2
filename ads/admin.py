@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
-from ads.models import Ad, Category
+from ads.models import AdModel, CatModel, LocationModel
 
-admin.site.register(Ad)
-admin.site.register(Category)
+admin.site.register(AdModel)
+admin.site.register(CatModel)
+admin.site.register(LocationModel)
